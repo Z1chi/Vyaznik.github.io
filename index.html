@@ -6,11 +6,12 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/content.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
   <script src="https://vk.com/js/api/openapi.js?168" type="text/javascript"></script>
 
 </head>
@@ -59,108 +60,88 @@
     </div>
     <div class="actual__article">
       <a href="" class="actual__single-article"><img class="actual__single-article_img" src="./img/img1.png" alt="">
-        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Название Статьи о вязниках</p>
-          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg" alt="">20.12.2020</p></div>
+        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Название
+          Статьи о вязниках</p>
+          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg"
+                                                                   alt="">20.12.2020</p></div>
       </a>
       <a href="" class="actual__single-article"><img class="actual__single-article_img" src="./img/img2.png" alt="">
-        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Вязники что-то там</p>
-          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg" alt="">20.12.2020</p></div>
+        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Вязники
+          что-то там</p>
+          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg"
+                                                                   alt="">20.12.2020</p></div>
       </a>
       <a href="" class="actual__single-article"><img class="actual__single-article_img" src="./img/img3.png" alt="">
-        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Вязники еще много слов статьи</p>
-          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg" alt="">20.12.2020</p></div>
+        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Вязники
+          еще много слов статьи</p>
+          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg"
+                                                                   alt="">20.12.2020</p></div>
       </a>
       <a href="" class="actual__single-article"><img class="actual__single-article_img" src="./img/img4.png" alt="">
-        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Название статьи Название 2 статьи</p>
-          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg" alt="">20.12.2020</p></div>
+        <div class="actual__single-article_titleWrapper"><p class="actual__single-article_titleWrapper_Title">Название
+          статьи Название 2 статьи</p>
+          <p class="actual__single-article_titleWrapper_data"><img class="messege_min" src="./img/message_min.svg"
+                                                                   alt="">20.12.2020</p></div>
       </a>
     </div>
     <div class="container_oldArticle">
-      <div class="apiVkComments">
-        <h2>Последние коментарии</h2>
-        <!--<img src="./img/заглушка.png" alt="">-->
-        <script type="text/javascript">
-         /*   VK.init({
-                apiId: 7707931,
-                onlyWidgets: true
-            });*/
+      <div class="container_oldArticle_top">
+        <div class="apiVkComments">
+          <h2>Последние коментарии</h2>
+          <!--  <img src="./img/заглушка.png" alt="">-->
+          <script type="text/javascript">
+              VK.init({
+                  apiId: 7707931,
+                  onlyWidgets: true
+              });
 
-        </script>
-        <div id="vk_comments"></div><!--
-        <script type="text/javascript">
-            VK.Widgets.Comments('vk_comments');
-        </script>-->
-
-
-      </div>
-
-
-      <div class="slider-wrap">
-        <div class="oldArticle swiper-container">
-          <div class="swiper-wrapper">
-            <article class="oldSingleArticle swiper-slide">
-              <img class="oldArticleImg" src="./img/OldArticle1.png" alt="">
-              <div>
-                <a href="" class="oldSingleArticle_title">Название статьи Название статьи</a>
-                <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi</p>
-              </div>
-            </article>
-            <article class="oldSingleArticle swiper-slide">
-              <img class="oldArticleImg" src="img/OldArticle2.png" alt="">
-              <div>
-                <a href="" class="oldSingleArticle_title">Название статьи Название статьи</a>
-                <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miLorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod
-                  tempor iqua. Ut enim ad mi</p>
-              </div>
-            </article>
-            <article class="oldSingleArticle swiper-slide">
-              <!--<div class="oldSingleArticle_blockImg">--> <img class="oldArticleImg" src="./img/OldArticle3.png" alt=""><!--</div>-->
-              <div>
-                <a href="" class="oldSingleArticle_title">Название статьи</a>
-                <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi</p>
-              </div>
-            </article>
-            <article class="oldSingleArticle swiper-slide">
-              <!-- <div class="oldSingleArticle_blockImg">--><img class="oldArticleImg" src="img/OldArticle2.png" alt=""><!--</div>-->
-              <div><a href="" class="oldSingleArticle_title">Название статьи Название статьи</a>
-                <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miLorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod i</p></div>
-            </article>
-            <article class="oldSingleArticle swiper-slide">
-              <!--<div class="oldSingleArticle_blockImg">-->
-              <img class="oldArticleImg" src="./img/OldArticle3.png" alt=""><!--</div>-->
-              <div><a href="" class="oldSingleArticle_title">Название статьи</a>
-                <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi</p></div>
-            </article>
-            <article class="oldSingleArticle swiper-slide">
-              <!--<div class="oldSingleArticle_blockImg">--><img class="oldArticleImg" src="img/OldArticle2.png" alt=""><!--</div>-->
-              <div><a href="" class="oldSingleArticle_title">Название статьи Название статьи</a>
-                <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miLorem ipsum dolor sit amet, consectetur
-                  adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi Lorem ipsum dolor sit amet,
-                  consectetur
-                  i</p></div>
-            </article>
-
-          </div>
+          </script>
+          <div id="vk_comments"></div>
+          <script type="text/javascript">
+              VK.Widgets.Comments('vk_comments');
+          </script>
 
         </div>
-        <div class="swiper-pagination"></div>
+        <div class="oldArticle">
+
+          <article class="oldSingleArticle">
+            <img class="oldArticleImg" src="./img/OldArticle1.png" alt="">
+            <div>
+              <a href="" class="oldSingleArticle_title">Название статьи Название статьи</a>
+              <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi</p>
+            </div>
+          </article>
+          <article class="oldSingleArticle">
+            <img class="oldArticleImg" src="img/OldArticle2.png" alt="">
+            <div>
+              <a href="" class="oldSingleArticle_title">Название статьи Название статьи</a>
+              <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miLorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod
+                tempor iqua. Ut enim ad mi</p>
+            </div>
+          </article>
+          <article class="oldSingleArticle ">
+            <!--<div class="oldSingleArticle_blockImg">--> <img class="oldArticleImg" src="./img/OldArticle3.png"
+                                                                alt=""><!--</div>-->
+            <div>
+              <a href="" class="oldSingleArticle_title">Название статьи</a>
+              <p class="oldSingleArticle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="add_OlderArticle">
+
+
       </div>
     </div>
+    <button class="add_OlderArticle_button">Посмотреть ещё</button>
   </section>
 </div>
 <footer>
@@ -175,7 +156,6 @@
 </footer>
 
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
