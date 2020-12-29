@@ -78,6 +78,7 @@
 .show {
   display: none;
 }
+
 .hamburger-line {
   width: 100%;
   height: 4px;
@@ -88,45 +89,52 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.hamburger-line:nth-child(1){
- /* margin: 7px auto 0;*/
+
+.hamburger-line:nth-child(1) {
+  /* margin: 7px auto 0;*/
 }
-.hamburger-line:nth-child(2){
-   margin: 4px auto;
+
+.hamburger-line:nth-child(2) {
+  margin: 4px auto;
 }
-.show.hamburger-active .hamburger-line:nth-child(2){
+
+.show.hamburger-active .hamburger-line:nth-child(2) {
   opacity: 0;
 }
-.show.hamburger-active .hamburger-line:nth-child(1){
+
+.show.hamburger-active .hamburger-line:nth-child(1) {
   -webkit-transform: translateY(10px) rotate(40deg);
   -ms-transform: translateY(10px) rotate(40deg);
   -o-transform: translateY(10px) rotate(40deg);
   transform: translateY(7px) rotate(40deg);
 }
-.show.hamburger-active .hamburger-line:nth-child(3){
-   -webkit-transform: translateY(-10px) rotate(-40deg);
-   -ms-transform: translateY(-10px) rotate(-40deg);
-   -o-transform: translateY(-10px) rotate(-40deg);
-   transform: translateY(-9px) rotate(-40deg);
- }
+
+.show.hamburger-active .hamburger-line:nth-child(3) {
+  -webkit-transform: translateY(-10px) rotate(-40deg);
+  -ms-transform: translateY(-10px) rotate(-40deg);
+  -o-transform: translateY(-10px) rotate(-40deg);
+  transform: translateY(-9px) rotate(-40deg);
+}
 
 #menu {
   margin: 0 auto;
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   background-color: #fafafa;
   cursor: pointer;
   border-radius: 50px;
   width: 20px;
   top: 15px;
   left: 5px;
-  padding:8px;
+  padding: 8px;
   height: 20px;
   text-align: center;
   line-height: 40px;
 }
 
-.header__nav-navigation {
-
+.header__nav-navigation > div {
+display: block;
+  max-width: 220px;
 }
 
 @media (max-width: 995px) {
@@ -151,11 +159,11 @@
 
   .header__nav-navigation {
     display: block;
-    position: absolute;
+    position: fixed;
     left: -100%;
     top: 5%;
-    z-index: 1;
-    max-width: 400px;
+    z-index: 91;
+  /*  max-width: 400px;*/
     background-color: azure;
     padding: 20px 0 20px 40px;
     transition: all ease 0.3s;
