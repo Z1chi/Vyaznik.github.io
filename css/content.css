@@ -195,7 +195,7 @@ a.actual__single-article:hover:after {
   font-size: 18px;
   color: #282828;
   font-weight: 700;
-  margin: 25px 0;
+/*  margin: 25px 0;*/
   transition: all ease 0.3s;
 }
 
@@ -222,6 +222,9 @@ a.actual__single-article:hover:after {
 .OldArticleDescription {
   max-height: 220px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .add_OlderArticle_button {
@@ -406,7 +409,9 @@ footer {
     margin: 0 0 40px;
   }
 
-
+  a.actual__single-article {
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -415,7 +420,7 @@ footer {
     max-height: unset;
     min-height: unset;
     min-width: unset;
-    width: 80%;
+    width: 100%;
   }
 
   .oldSingleArticle {
@@ -474,7 +479,7 @@ footer {
   }
 
   .OldArticleDescription {
-    margin: 0;
+    margin: 10px 0 0 ;
     overflow: hidden;
   }
 
