@@ -1,7 +1,7 @@
 .container_content {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0 20px;
   margin-bottom: 40px;
   background-color: #f3f3f3;
 }
@@ -17,18 +17,18 @@
 }
 
 .container_content_section-content > h1 {
-  font-family: Roboto-Regular, sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto-medium', sans-serif;
+  font-weight: 600;
   color: #1c1c1c;
   font-size: 35px;
   margin: 30px 0;
 }
 
 .container_content_section-content > p {
-  font-family: Roboto-Regular, sans-serif;
+  font-family: 'Roboto-light', sans-serif;
   color: #1c1c1c;
   font-size: 18px;
-  font-weight: 300;
+/*  font-weight: 300;*/
   margin-bottom: 30px;
 }
 
@@ -99,7 +99,7 @@ a.actual__single-article:hover:after {
   bottom: 15px;
   left: 15px;
   color: #FFFFFF;
-  font-family: Roboto-Regular, sans-serif;
+  font-family: 'Roboto-medium', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -161,7 +161,7 @@ a.actual__single-article:hover:after {
 }
 
 .apiVkComments > h2 {
-  font-family: Roboto-Regular, sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -177,7 +177,7 @@ a.actual__single-article:hover:after {
 
 .oldArticle {
   display: flex;
-  font-family: Roboto-Regular, sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
 
 }
 
@@ -208,6 +208,7 @@ a.actual__single-article:hover:after {
 .oldSingleArticle_description {
   max-width: 230px;
   font-size: 16px;
+  font-family: 'Roboto-light',sans-serif;
   color: #1c1c1c;
   font-weight: 300;
   overflow: hidden;
@@ -230,7 +231,7 @@ a.actual__single-article:hover:after {
 .add_OlderArticle_button {
   background-color: #8aa6d1;
   margin: 50px auto;
-  font-family: Roboto-Regular, sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 20px;
@@ -251,7 +252,7 @@ a.actual__single-article:hover:after {
 }
 
 footer {
-  font-family: Roboto-Regular, sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
   background-color: #383838;
   height: 75px;
   position: relative;

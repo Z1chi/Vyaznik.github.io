@@ -1,27 +1,22 @@
+let menuButton = document.querySelector("#menu");
+menuButton.addEventListener("click", function () {
+	menuButton.classList.toggle("hamburger-active");
+});
+
+
+document.getElementById("menu").onclick = function () {
+	open()
+};
+document.getElementById("navOverlay").onclick = function () {
+	open()
+};
+
+function open() {
+	document.getElementById("navigationMenu").classList.toggle("active");
+	document.querySelector(".nav_overlay").classList.toggle("activeOverlay")
+}
+
 window.onload = function () {
-	let menuButton = document.querySelector("#menu");
-	menuButton.addEventListener("click", function () {
-		menuButton.classList.toggle("hamburger-active");
-	});
-
-	document.getElementById("menu").onclick = function () {
-		open()
-	};
-
-	function open() {
-		document.getElementById("navigationMenu").classList.toggle("active");
-	}
-
-	/*
-		let iframeVkApi = document.querySelector("#vkwidget1");
-		console.log(iframeVkApi);
-		let iframeDocument = iframeVkApi.contentDocument || iframeVkApi.contentWindow.document;
-		console.log(iframeDocument);
-		let iframeVkApiKek = async function (iframeVkApi) {
-			await console.log(iframeVkApi);
-			await console.log(iframeVkApi.contentDocument.querySelector('div'));
-		};*/
-
 
 	document.querySelector("#addOldArticle").addEventListener("click", function () {
 		let linkImg = "./img/OldArticle1.png";
@@ -45,7 +40,19 @@ window.onload = function () {
 
 		let areaInstall = document.querySelector(".add_OlderArticle");
 		areaInstall.innerHTML += onceOldArticleGenerate;
-	})
+	});
+
+	/*
+		const iframeVkApi = document.querySelector("#vkwidget1");
+		console.log(iframeVkApi);
+		const iframeDocument = iframeVkApi.contentWindow;
+		console.log(iframeDocument);
+		let iframeVkApiKek = async function (iframeVkApi) {
+			await console.log(iframeVkApi);
+		};
+		iframeVkApiKek(iframeVkApi);
+	*/
+
 
 };
 
