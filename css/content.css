@@ -161,9 +161,9 @@ a.actual__single-article:hover:after {
 }
 
 .apiVkComments > h2 {
-  font-family: 'Roboto-Regular', sans-serif;
+  font-family: 'Roboto-medium', sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  /*font-weight: 700;*/
   margin-bottom: 20px;
   margin-left: 10px;
 }

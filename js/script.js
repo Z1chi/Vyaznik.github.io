@@ -1,8 +1,4 @@
 let menuButton = document.querySelector("#menu");
-menuButton.addEventListener("click", function () {
-	menuButton.classList.toggle("hamburger-active");
-});
-
 
 document.getElementById("menu").onclick = function () {
 	open()
@@ -14,6 +10,7 @@ document.getElementById("navOverlay").onclick = function () {
 function open() {
 	document.getElementById("navigationMenu").classList.toggle("active");
 	document.querySelector(".nav_overlay").classList.toggle("activeOverlay")
+	menuButton.classList.toggle("hamburger-active");
 }
 
 window.onload = function () {
