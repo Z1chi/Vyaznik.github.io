@@ -13,14 +13,33 @@ function open() {
 	menuButton.classList.toggle("hamburger-active");
 }
 
+
+/** Перенос текста в другой блок home-page */
+function transferEl(el, parentEl, minWidth, maxWidth) {
+	const width = window.innerWidth;
+
+	if (el && parentEl) {
+		/** проверка на существование элементов */
+		width <= minWidth ? parentEl.appendChild(el) : false;
+		width >= maxWidth ? parentEl.appendChild(el) : false
+	}
+}
+
+const vk = document.querySelector(".transferJs");
+const containerVk = document.querySelector(".container_content");
+transferEl(vk, containerVk, 937);
+
 window.onload = function () {
 
-	document.querySelector("#addOldArticle").addEventListener("click", function () {
-		let linkImg = "./img/OldArticle1.png";
-		let linkTitle = "Название статьи Название статьи";
-		let articleText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi";
-		let template = {
-			articleOld: `
+
+
+	if (document.querySelector("#addOldArticle")) {
+		document.querySelector("#addOldArticle").addEventListener("click", function () {
+			let linkImg = "./img/OldArticle1.png";
+			let linkTitle = "Название статьи Название статьи";
+			let articleText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi";
+			let template = {
+				articleOld: `
 						<article class="oldSingleArticle">
 							<img class="oldArticleImg" src="{linkImg}" alt="">
 		<div>
@@ -28,16 +47,17 @@ window.onload = function () {
 		<p class="oldSingleArticle_description">{articleText}</p>
 		</div>
 		</article>`
-		};
+			};
 
-		let onceOldArticleGenerate = template.articleOld
-			.replace("{linkImg}", linkImg)
-			.replace("{linkTitle}", linkTitle)
-			.replace("{articleText}", articleText);
+			let onceOldArticleGenerate = template.articleOld
+				.replace("{linkImg}", linkImg)
+				.replace("{linkTitle}", linkTitle)
+				.replace("{articleText}", articleText);
 
-		let areaInstall = document.querySelector(".add_OlderArticle");
-		areaInstall.innerHTML += onceOldArticleGenerate;
-	});
+			let areaInstall = document.querySelector(".add_OlderArticle");
+			areaInstall.innerHTML += onceOldArticleGenerate;
+		});
+	}
 
 	/*
 		const iframeVkApi = document.querySelector("#vkwidget1");

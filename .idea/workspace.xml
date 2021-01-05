@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42042c56-8b4f-430d-b85a-f11b8c814f48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contentSecondArticle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contentSecondArticle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +56,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -90,7 +95,9 @@
       <workItem from="1608706061684" duration="24576000" />
       <workItem from="1608796244483" duration="3551000" />
       <workItem from="1608803368873" duration="14701000" />
-      <workItem from="1609313648402" duration="11248000" />
+      <workItem from="1609313648402" duration="11794000" />
+      <workItem from="1609326910275" duration="59000" />
+      <workItem from="1609833198753" duration="16741000" />
     </task>
     <task id="LOCAL-00001" summary="Тестовые отступы WordPress">
       <created>1609233989641</created>
@@ -113,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609325823008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1609326493778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609326493778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +151,7 @@
     <MESSAGE value="Фиксированное меню" />
     <MESSAGE value="Допилил меню, адаптив + оверлей" />
     <MESSAGE value="Допилил меню, адаптив + оверлей&#10;Шрифты +" />
-    <option name="LAST_COMMIT_MESSAGE" value="Допилил меню, адаптив + оверлей&#10;Шрифты +" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
