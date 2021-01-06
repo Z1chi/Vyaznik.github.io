@@ -42,11 +42,11 @@
 }
 
 .section-content_svg_calendar {
-  top: 5px;
+  top: 0;
 }
 
 .section-content_svg_messege {
-  top: 7px;
+  top: 2px;
 }
 
 .actual__article {
