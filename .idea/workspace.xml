@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42042c56-8b4f-430d-b85a-f11b8c814f48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
@@ -95,7 +94,9 @@
       <workItem from="1609313648402" duration="11794000" />
       <workItem from="1609326910275" duration="59000" />
       <workItem from="1609833198753" duration="17407000" />
-      <workItem from="1609929146587" duration="1417000" />
+      <workItem from="1609929146587" duration="2359000" />
+      <workItem from="1609935680053" duration="263000" />
+      <workItem from="1609936261415" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="Тестовые отступы WordPress">
       <created>1609233989641</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609855669095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix адаптив изображения главной статьи">
+      <created>1609930630179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609930630179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +166,7 @@
     <MESSAGE value="Допилил меню, адаптив + оверлей&#10;Шрифты +" />
     <MESSAGE value="fix" />
     <MESSAGE value="Вторая страница" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вторая страница" />
+    <MESSAGE value="fix адаптив изображения главной статьи" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix адаптив изображения главной статьи" />
   </component>
 </project>

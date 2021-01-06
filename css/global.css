@@ -21,7 +21,7 @@ section {
 
 }
 .containerImgArticle {
-  width: 100%;
+  width: 50%;
   overflow: hidden;
   height: 350px;
 }
@@ -79,6 +79,10 @@ footer {
 @media (max-width: 830px) {
   .footer_links {
     margin: 0 10px;
+  }
+  .containerImgArticle {
+    width: 100%;
+
   }
 }
 

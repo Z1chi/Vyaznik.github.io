@@ -9,6 +9,7 @@
 .container_content_section-content {
   margin: 0 40px;
   max-width: 487px;
+  width: 50%;
 }
 
 .container_content_section-content > img {
@@ -300,6 +301,7 @@ a.actual__single-article:hover:after {
   .container_content_section-content {
     margin: 0;
     max-width: unset;
+    width: 100%;
   }
 
   .container_oldArticle {
