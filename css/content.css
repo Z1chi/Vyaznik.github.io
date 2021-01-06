@@ -30,6 +30,8 @@
   color: #1c1c1c;
   font-size: 18px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .section-content_svg > span {
