@@ -23,13 +23,13 @@ section {
 .containerImgArticle {
   width: 50%;
   overflow: hidden;
-  height: 350px;
+/*  height: 350px;*/
   margin: 30px 0;
 }
 .containerImgArticle >img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 350px;
 }
 
 /*.container_content>img {

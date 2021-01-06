@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42042c56-8b4f-430d-b85a-f11b8c814f48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <workItem from="1609929146587" duration="2359000" />
       <workItem from="1609935680053" duration="263000" />
       <workItem from="1609936261415" duration="487000" />
-      <workItem from="1609939835432" duration="286000" />
+      <workItem from="1609939835432" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="Тестовые отступы WordPress">
       <created>1609233989641</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609936669711</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix margin">
+      <created>1609940284299</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609940284299</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +180,7 @@
     <MESSAGE value="Вторая страница" />
     <MESSAGE value="fix адаптив изображения главной статьи" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fix margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix margin" />
   </component>
 </project>
