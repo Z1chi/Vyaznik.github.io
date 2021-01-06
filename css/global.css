@@ -24,6 +24,7 @@ section {
   width: 50%;
   overflow: hidden;
   height: 350px;
+  margin: 30px 0;
 }
 .containerImgArticle >img {
   object-fit: cover;
