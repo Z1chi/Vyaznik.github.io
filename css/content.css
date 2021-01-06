@@ -351,6 +351,7 @@ a.actual__single-article:hover:after {
 
   a.actual__single-article {
     width: 100%;
+    height: 450px;
   }
 }
 

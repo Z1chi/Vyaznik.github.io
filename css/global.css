@@ -20,6 +20,21 @@ section {
   margin: 0 auto;
 
 }
+.containerImgArticle {
+  width: 100%;
+  overflow: hidden;
+  height: 350px;
+}
+.containerImgArticle >img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*.container_content>img {
+  max-width: 550px;
+  object-fit: cover;
+}*/
 
 footer {
   font-family: 'Roboto-Regular', sans-serif;
