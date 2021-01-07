@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42042c56-8b4f-430d-b85a-f11b8c814f48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/contentSecondArticle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contentSecondArticle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +116,7 @@
       <workItem from="1610006115173" duration="82000" />
       <workItem from="1610006577214" duration="250000" />
       <workItem from="1610007247440" duration="313000" />
-      <workItem from="1610022672726" duration="1843000" />
+      <workItem from="1610022672726" duration="2942000" />
     </task>
     <task id="LOCAL-00001" summary="Тестовые отступы WordPress">
       <created>1609233989641</created>
@@ -200,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609942712460</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix WP">
+      <created>1610024545500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610024545500</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +232,7 @@
     <MESSAGE value="fix margin" />
     <MESSAGE value="fix svg" />
     <MESSAGE value="fix svg flex" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix svg flex" />
+    <MESSAGE value="fix WP" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix WP" />
   </component>
 </project>
