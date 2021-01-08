@@ -513,7 +513,6 @@ a.actual__single-article:hover:after {
   margin-left: 5px;
   min-width: 29%;
   padding-right: 10px;
-
 }
 
 .wcomments_head ._wcomments_head ._wcomments_form {
@@ -523,7 +522,6 @@ a.actual__single-article:hover:after {
 .apiVkComments > h2 {
   font-family: 'Roboto-medium', sans-serif;
   font-size: 22px;
-  /*font-weight: 700;*/
   margin-bottom: 20px;
   margin-left: 10px;
 }
@@ -540,15 +538,15 @@ a.actual__single-article:hover:after {
   font-family: 'Roboto-Regular', sans-serif;
   margin-bottom: 20px;
   flex-basis: 50%;
+  justify-content: flex-start;
 }
 
 .oldSingleArticle {
-  flex-basis: 50%;
+  flex-basis: 25%;
   margin: 5px 10px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-
 }
 
 .oldSingleArticle_title {
@@ -842,7 +840,7 @@ p.section-content_svg {
 }
 
 .container_content__article_img1_wrapper {
-  max-height: 350px;
+  height: 350px;
   width: 100%;
   overflow: hidden;
 }
