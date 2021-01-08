@@ -119,7 +119,7 @@
       <workItem from="1610006115173" duration="82000" />
       <workItem from="1610006577214" duration="250000" />
       <workItem from="1610007247440" duration="313000" />
-      <workItem from="1610022672726" duration="18937000" />
+      <workItem from="1610022672726" duration="21823000" />
     </task>
     <task id="LOCAL-00001" summary="Тестовые отступы WordPress">
       <created>1609233989641</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610108839546</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Ссылки на статьи">
+      <created>1610115288572</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610115288572</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +275,7 @@
     <MESSAGE value="Стили в один файл content.css" />
     <MESSAGE value="apiVk other version" />
     <MESSAGE value="отступы старый статей индекс2" />
-    <option name="LAST_COMMIT_MESSAGE" value="отступы старый статей индекс2" />
+    <MESSAGE value="Ссылки на статьи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ссылки на статьи" />
   </component>
 </project>
