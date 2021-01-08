@@ -512,7 +512,7 @@ a.actual__single-article:hover:after {
 .add_OlderArticle {
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .ArticleHref {
