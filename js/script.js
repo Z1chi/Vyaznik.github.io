@@ -41,7 +41,8 @@ window.onload = function () {
 			let articleText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi";
 			let template = {
 				articleOld: `
-						<article class="oldSingleArticle">
+						<article class="oldSingleArticle oldSingleArticle_flexBasis ">
+						<a href="" class="ArticleHref"></a>
 							<img class="oldArticleImg" src="{linkImg}" alt="">
 		<div>
 		<a href="" class="oldSingleArticle_title">{linkTitle}</a>

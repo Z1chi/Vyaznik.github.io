@@ -356,6 +356,7 @@ footer {
     transition: all ease 0.3s;
   }
 }
+
 /* Page-1----------------------------------------------------*/
 
 .container_content {
@@ -503,7 +504,18 @@ a.actual__single-article:hover:after {
   flex-wrap: wrap;
 }
 
-.add_OlderArticle > article {
+.ArticleHref {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.add_OlderArticle > a {
   flex-basis: 22%;
   margin-bottom: 40px;
 }
@@ -542,11 +554,16 @@ a.actual__single-article:hover:after {
 }
 
 .oldSingleArticle {
-  flex-basis: 25%;
+  flex-basis: 50%;
   margin: 5px 10px;
   overflow: hidden;
   display: flex;
+  position: relative;
   flex-direction: column;
+}
+
+.oldSingleArticle_flexBasis {
+  flex-basis: 23%;
 }
 
 .oldSingleArticle_title {
@@ -648,7 +665,7 @@ a.actual__single-article:hover:after {
     margin: 0 10px 40px
   }
 
-  .add_OlderArticle > article {
+  .add_OlderArticle > a {
     margin-bottom: 5px;
   }
 
@@ -699,7 +716,6 @@ a.actual__single-article:hover:after {
   }
 
 
-
 }
 
 @media (max-width: 730px) {
@@ -729,7 +745,7 @@ a.actual__single-article:hover:after {
     margin-bottom: 30px;
   }
 
-  .add_OlderArticle > article {
+  .add_OlderArticle > a {
     margin-bottom: 30px;
   }
 
@@ -912,10 +928,11 @@ p.section-content_svg {
 }
 
 .oldSingleArticle1 {
-  flex-basis: 31%;
+  flex-basis: 25%;
   margin: 5px 10px;
   overflow: hidden;
   display: flex;
+  position: relative;
   flex-direction: column;
 }
 
