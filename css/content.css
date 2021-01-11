@@ -516,8 +516,8 @@ a.actual__single-article:hover:after {
 
 .add_OlderArticle {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .ArticleHref {
@@ -534,6 +534,10 @@ a.actual__single-article:hover:after {
 .add_OlderArticle > a {
   flex-basis: 22%;
   margin-bottom: 40px;
+}
+.add_OlderArticle > article {
+  flex-basis: 23%;
+  max-width: unset;
 }
 
 .apiVkComments {
