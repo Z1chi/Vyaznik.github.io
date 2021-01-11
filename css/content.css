@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: 'Roboto-italic';
+  src: url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Roboto-medium';
   src: url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
   font-weight: normal;
@@ -163,7 +170,7 @@ footer {
 
 
 .header__text {
-  font-family: 'Roboto-Regular', sans-serif;
+  font-family: 'Roboto-italic', sans-serif;
   position: absolute;
   margin-top: 1%;
   max-width: 472px;
@@ -403,8 +410,6 @@ footer {
   color: #1c1c1c;
   font-size: 18px;
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
 }
 
 
