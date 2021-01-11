@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="42042c56-8b4f-430d-b85a-f11b8c814f48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contentSecondArticle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610120191599</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="js fix vkApi transfer&#10;&lt;a href&gt; in first Article">
+      <created>1610354548909</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610354548909</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +295,7 @@
     <MESSAGE value="отступы старый статей индекс2" />
     <MESSAGE value="Ссылки на статьи" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="js fix vkApi transfer&#10;&lt;a href&gt; in first Article" />
+    <option name="LAST_COMMIT_MESSAGE" value="js fix vkApi transfer&#10;&lt;a href&gt; in first Article" />
   </component>
 </project>
