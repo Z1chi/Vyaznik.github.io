@@ -424,9 +424,6 @@ footer {
   top: 0;
 }
 
-.section-content_svg_messege {
-  top: 2px;
-}
 
 .actual__article {
   display: flex;
@@ -844,11 +841,6 @@ p.section-content_svg {
 
 .section-content_svg_calendar {
   top: 0;
-}
-
-.section-content_svg_messege1 {
-  top: 2px;
-  left: 20px;
 }
 
 .section-content_svg > img {
