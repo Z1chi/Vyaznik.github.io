@@ -487,6 +487,9 @@ a.actual__single-article:hover:after {
   color: #b7b7b7;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .actual__single-article_titleWrapper_Title {
