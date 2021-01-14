@@ -116,7 +116,7 @@ footer {
 .footer_links {
   color: #fafafa;
   font-size: 16px;
-  font-weight: 700;
+/*  font-weight: 700;*/
   margin: 0 32px;
 }
 
@@ -629,9 +629,9 @@ a.actual__single-article:hover:after {
 .add_OlderArticle_button {
   background-color: #8aa6d1;
   margin-bottom: 50px;
-  font-family: 'Roboto-Regular', sans-serif;
+  font-family: 'Roboto-medium', sans-serif;
   font-size: 22px;
-  font-weight: 700;
+/*  font-weight: 700;*/
   line-height: 20px;
   white-space: nowrap;
   color: #FFFFFF;
