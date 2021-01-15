@@ -474,17 +474,20 @@ a.actual__single-article:hover > .actual__single-article_titleWrapper > .actual_
   max-height: 70%;
   overflow: hidden;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 60%, rgba(0, 0, 0, 0.45) 70%);
-
+  padding: 5px;
+  border-radius: 10px;
 }
 
+a.actual__single-article:hover >.actual__single-article_titleWrapper_data {
+  color: #f3f3f3;
+  transition: all ease-out 0.3s;
+}
 
 a.actual__single-article:hover > .actual__single-article_titleWrapper > .actual__single-article_titleWrapper_data {
   bottom: 6.5%;
   transition: ease-out all 0.5s;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 60%, rgba(0, 0, 0, 0.45) 70%);
-
 }
-
 
 a.actual__single-article:after {
   transition: 0.5s all ease;
@@ -536,6 +539,7 @@ a.actual__single-article:hover:after {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 60%, rgba(0, 0, 0, 0.45) 70%);
   border-radius: 100px;
   padding: 4px 10px 2px;
+  transition: all ease 0.3s;
 
 }
 
@@ -550,10 +554,14 @@ a.actual__single-article:hover:after {
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: ease-out all 0.5s;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .messege_min {
   margin-right: 15px;
+  width: 14px;
+  height: 15px;
 }
 
 .container_oldArticle {
