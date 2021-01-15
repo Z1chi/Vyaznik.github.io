@@ -899,7 +899,8 @@ a.actual__single-article:hover:after {
 }
 
 p.section-content_svg {
-  display: block;
+  display: flex;
+  align-items: center;
 
 }
 
