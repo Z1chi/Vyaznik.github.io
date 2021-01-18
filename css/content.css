@@ -928,7 +928,7 @@ p.section-content_svg {
   top: 2px;
   font-family: 'Roboto-Regular', sans-serif;
 }
-.container_content_section-content_description1 > img {
+.container_content_section-content_description1 >span > img {
   width: 100vh;
   height: auto;
 }
