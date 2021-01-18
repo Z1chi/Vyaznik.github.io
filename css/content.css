@@ -928,7 +928,7 @@ p.section-content_svg {
   top: 2px;
   font-family: 'Roboto-Regular', sans-serif;
 }
-.container_content_section-content_description1 >span > img {
+.container_content_section-content_description1 > img {
   width: 100vh;
   height: auto;
 }
@@ -936,6 +936,7 @@ p.section-content_svg {
   font-size: 18px;
   color: #1c1c1c;
   font-family: "Roboto-Light", sans-serif;
+  white-space: break-spaces;
 }
 
 .container_content_section-content1 {
