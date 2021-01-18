@@ -33,7 +33,7 @@ window.addEventListener("resize", function () {
 	transferEl(vk, containerFirst, null , 937);
 })
 
-window.onload = function () {
+/*window.onload = function () {
 
 	if (document.querySelector("#addOldArticle")) {
 		document.querySelector("#addOldArticle").addEventListener("click", function () {
@@ -62,18 +62,7 @@ window.onload = function () {
 		});
 	}
 
-	/*
-		const iframeVkApi = document.querySelector("#vkwidget1");
-		console.log(iframeVkApi);
-		const iframeDocument = iframeVkApi.contentWindow;
-		console.log(iframeDocument);
-		let iframeVkApiKek = async function (iframeVkApi) {
-			await console.log(iframeVkApi);
-		};
-		iframeVkApiKek(iframeVkApi);
-	*/
 
-
-};
+};*/
 
 
