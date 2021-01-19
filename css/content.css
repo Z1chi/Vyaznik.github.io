@@ -985,6 +985,7 @@ p.section-content_svg {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   white-space: break-spaces;
+  line-height: 29px;
 }
 
 .container_content_section-content1 {
