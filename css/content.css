@@ -961,12 +961,18 @@ p.section-content_svg {
   position: relative;
 }
 
+.has-text-align-left {
+  font-family: 'Montserrat' ,sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
 .section-content_svg > span {
   margin: 0 10px;
   font-size: 14px;
   color: #1c1c1cbd;
   position: relative;
-  top: 2px;
+  top: -3px;
   font-family: 'Roboto-Regular', sans-serif;
 }
 .container_content_section-content_description1 > span > img {
@@ -991,6 +997,7 @@ p.section-content_svg {
 .container_content_section-content1 {
   margin: 0 15px 0;
   flex-basis: 100%;
+  line-height: 30px;
 }
 
 .section__content__title {
