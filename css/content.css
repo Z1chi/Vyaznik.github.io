@@ -462,7 +462,7 @@ a.actual__single-article:hover > .actual__single-article_titleWrapper > .actual_
 
 .actual__single-article_description_hover {
   opacity: 0;
-  top: 300%;
+  top: 150%;
   position: absolute;
   transition: 0.5s all ease-out;
 }
