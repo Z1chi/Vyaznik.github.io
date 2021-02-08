@@ -472,6 +472,7 @@ a.actual__single-article {
   margin: -1px;
   overflow: hidden;
   width: 25%;
+  height: 40vh;
 }
 
 .actual__single-article_img {
@@ -893,7 +894,6 @@ a.actual__single-article:hover:after {
     height: 100%;
     transition: 0.5s all ease;
     justify-content: space-between;
-
   }
 
   a.actual__single-article > .actual__single-article_titleWrapper > .actual__single-article_titleWrapper_Title {
@@ -1041,7 +1041,7 @@ p.section-content_svg {
   color: #1c1c1c;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  white-space: break-spaces;
+/*  white-space: break-spaces;*/
   line-height: 31px;
 }
 
