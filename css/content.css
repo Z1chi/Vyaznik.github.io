@@ -472,7 +472,7 @@ a.actual__single-article {
   margin: -1px;
   overflow: hidden;
   width: 25%;
-  height: 40vh;
+  height: 440px;
 }
 
 .actual__single-article_img {
@@ -762,6 +762,7 @@ a.actual__single-article:hover:after {
 
   a.actual__single-article {
     width: 50%;
+    height: auto;
   }
 
 }
